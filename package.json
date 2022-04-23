@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-gcn",
-  "description": "A starter template to build amazing static websites with Gatsby, Contentful and Netlify",
-  "version": "2.0.4",
-  "repository": "https://github.com/ryanwiemer/gatsby-starter-gcn",
-  "author": "Ryan Wiemer <ryan@ryanwiemer.com>",
+  "name": "pipe-and-porter-blog",
+  "description": "Blog for the pipe and porter society",
+  "version": "1.0.0",
+  "repository": "https://github.com/itwasmattgregg/pipe-and-porter",
+  "author": "Matt Gregg <mattdgregg@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "chalk": "^2.4.1",
@@ -13,7 +13,7 @@
     "gatsby-plugin-canonical-urls": "^2.0.8",
     "gatsby-plugin-catch-links": "^2.0.9",
     "gatsby-plugin-feed": "^2.0.11",
-    "gatsby-plugin-google-analytics": "^2.0.8",
+    "gatsby-plugin-google-gtag": "^4.12.1",
     "gatsby-plugin-manifest": "^2.0.12",
     "gatsby-plugin-netlify": "^2.0.6",
     "gatsby-plugin-nprogress": "^2.0.7",
@@ -40,8 +40,6 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
-  "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",

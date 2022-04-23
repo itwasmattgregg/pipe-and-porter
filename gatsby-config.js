@@ -67,10 +67,13 @@ module.exports = {
           : contentfulConfig.production,
     },
     {
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS,
-        head: true,
+        trackingIds: ['G-JHYGBYN5Y7'],
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
       },
     },
     'gatsby-plugin-sitemap',
