@@ -5,6 +5,7 @@
   "repository": "https://github.com/itwasmattgregg/pipe-and-porter",
   "author": "Matt Gregg <mattdgregg@gmail.com>",
   "dependencies": {
+    "@netlify/plugin-gatsby": "^3.0.0",
     "babel-plugin-styled-components": "^1.10.0",
     "chalk": "^2.4.1",
     "contentful-import": "^7.4.3",
